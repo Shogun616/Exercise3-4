@@ -4,12 +4,13 @@ import java.util.Scanner;
 
 public class Main {
 
+    static Scanner scan = new Scanner(System.in);
+
     static String word = "";
+
     static int number = (int)(1+Math.random()*10);
 
     public static void main(String[] args) {
-
-        Scanner scan = new Scanner(System.in);
 
         System.out.print("Skriv ett text: ");
         word = scan.nextLine();
